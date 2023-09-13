@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #eaeaea;
+}
+.container{
+    width: 800px;
+    background-color: #fff;
+    margin: auto;
+    padding: 10px;
+}
+.judul {
+    font-size: 36px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+}
+.judul span {
+    color: #ff500f;
+}
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+ul li a {
+    text-decoration: none;
+    color: #ff500f;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    font-size: 16px;
+}
+ul li a:hover{
+    background-color: #ff500f;
+    color: #fff;
+}
+.banner{
+    background-image: url(wallpaperflare.com_wallpaper\ \(1\).jpg);
+    margin-top: 10px;
+    height: 250px;
+    margin-right: -10px;
+    margin-left: -10px;
+    background-size: cover;
+    border-top: 5px solid crimson;
+    border-bottom: 5px solid #ff500f;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+}
+div.Ditulis p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.Ditulis p span{
+    color: #ff500f;
+}
+.lorem p.lorem50{
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+div p.cp{
+    text-align: center;
+    background-color: #ff500f;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+    line-height: 35px;
+    font-variant: small-caps;
+}
